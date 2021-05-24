@@ -27,10 +27,12 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="main-header">
+    <header class="main-header">
+        <div class="container">
             <div class="logo header-logo">
-                <img src="img/logo.svg" alt="">
+                <a>
+                    <img src="img/logo.svg" alt="">
+                </a>
             </div>
             <div class="main-header-wrapper">
                 <form class="search-form" action="http://echo.htmlacademy.ru" method="get" wtx-context="2C248308-604E-4FC4-BAAA-FB62BAB180C0">
@@ -66,8 +68,8 @@
                     <li class="main-header-menu-item"><a href="#">Контакты</a></li>
                 </ul>
             </nav>
-        </header>
-    </div>
+        </div>
+    </header>
     <main class="main-container">
         <h1 class="visually-hidden">Главная Device</h1>
         <section class="slider container">
@@ -220,20 +222,20 @@
                         <a class="services-link" id="credit-link" href="#">Кредит</a>
                     </li>
                 </ul>
-                <div class="services-description">
-                    <div class="service services-description-delivery service-show">
-                        <p class="services-item-title">Доставка</p>
+                <ul class="services-description">
+                    <li class="service services-description-delivery service-show">
+                        <h3 class="services-item-title">Доставка</h3>
                         <p class="services-item-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
-                    </div>
-                    <div class="service services-description-warranty">
-                        <p class="services-item-title">Гарантия</p>
+                    </li>
+                    <li class="service services-description-warranty">
+                        <h3 class="services-item-title">Гарантия</h3>
                         <p class="services-item-description">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.<br> Товар, не дом, конечно же.</p>
-                    </div>
-                    <div class="service services-description-credit">
-                        <p class="services-item-title">Кредит</p>
+                    </li>
+                    <li class="service services-description-credit">
+                        <h3 class="services-item-title">Кредит</h3>
                         <p class="services-item-description">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="brands">
@@ -285,57 +287,44 @@
     </main>
     <footer class="main-footer">
         <div class="container">
-            <div class="footer-wrapper">
+            <div class="footer-wrapper-top">
                 <div class="logo footer-logo">
-                    <p>DEVICE</p>
+                    <img src="img/-e-logo.svg">
                 </div>
-                <div class="footer-links">
-                    <ul class="footer-links-list">
-                        <li class="footer-links-item"><a href="#" class="footer-login">Войти</a></li>
-                        <li class="footer-links-item"><a href="#" class="footer-compare">Сравнить</a></li>
-                        <li class="footer-links-item"><a href="#" class="footer-cart">Корзина</a></li>
-                    </ul>
-                </div>
+                <ul class="footer-links-list">
+                    <li class="footer-links-item"><a href="#" class="footer-login">Войти</a></li>
+                    <li class="footer-links-item"><a href="#" class="footer-compare">Сравнить</a></li>
+                    <li class="footer-links-item"><a href="#" class="footer-cart">Корзина</a></li>
+                </ul>
             </div>
             <div class="footer-wrapper-center">
-                <div class="footer-address">
-                    <p>г. Москва, ул. Строителей, 15</p>
-                </div>
-                <div class="footer-menu">
-                    <ul class="footer-menu-list">
-                        <li class="footer-menu-item"><a href="#">Доставка</a></li>
-                        <li class="footer-menu-item"><a href="#">Гарантия</a></li>
-                        <li class="footer-menu-item"><a href="#">Контакты</a></li>
-                    </ul>
-                </div>
-                <div class="footer-phone">
-                    <p>Тел.: +7 (495) 495-95-95</p>
-                </div>
+                <p class="footer-address">г. Москва, ул. Строителей, 15</p>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="#">Доставка</a></li>
+                    <li class="footer-menu-item"><a href="#">Гарантия</a></li>
+                    <li class="footer-menu-item"><a href="#">Контакты</a></li>
+                </ul>
+                <p class="footer-phone">Тел.: <a href="tel:+74954959595">+7 (495) 495-95-95</a></p>
             </div>
             <div class="footer-wrapper-bottom">
-                <div class="footer-decoration-line"></div>
-                <div class="footer-social">
-                    <ul class="social-button-list">
-                        <li>
-                            <a class="social-button" href="#">
-                                <span class="visually-hidden">Facebook</span>
-                                <img src="img/fb.png" width="32" height="32" alt="facebook">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="social-button" href="#">
-                                <spanInstagram class="visually-hidden">Instagram</span>
-                                    <img src="img/inst.png" width="32" height="32" alt="instagram">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="social-button" href="#">
-                                <span class="visually-hidden">Twitter</span>
-                                <img src="img/tw.png" width="32" height="32" alt="twitter">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+              <div class="footer-decoration-line"></div>
+                <ul class="social-button-list">
+                    <li>
+                        <a class="social-button" href="#">
+                            <span class="visually-hidden">Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-button" href="#">
+                            <spanInstagram class="visually-hidden">Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-button" href="#">
+                            <span class="visually-hidden">Twitter</span>
+                        </a>
+                    </li>
+                </ul>
                 <a href="https://htmlacademy.ru/intensive/htmlcss" class="footer-academy-logo" title="Интенсивный онлайн-курс «HTML и CSS, уровень 1» — HTML Academy"><img src="img/logo_htmlacademy 1.png" alt="Логотип HTMLAcademy"></a>
             </div>
         </div>
