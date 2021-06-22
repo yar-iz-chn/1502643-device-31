@@ -187,7 +187,6 @@ header li a:active {
 
 .catalog-menu {
     display: none;
-    opacity: 1;
 }
 
 .header-menu-catalog:hover .catalog-menu {
