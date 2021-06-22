@@ -31,22 +31,37 @@
         <div class="container">
             <div class="logo header-logo">
                 <a>
-                    <img src="img/logo.svg" width="163" height="35" alt="Логотип">
+                    <img src="img/logo.svg" alt="">
                 </a>
             </div>
             <div class="main-header-wrapper">
-                <form class="search-form" action="http://echo.htmlacademy.ru" method="get">
-                    <label class="visually-hidden" for="search-form-input">Поле поиска</label>
-                    <input type="text" class="main-header-search" name="search-input" id="search-form-input" placeholder="Поиск по сайту">
-                    <button type="submit" class="button search-button">Найти</button>
-                </form>
-                <a class="main-header-user-link main-header-login" href="#">Войти</a>
-                <a class="main-header-user-link main-header-compare" href="#">Сравнить</a>
-                <a class="main-header-user-link main-header-cart" href="#">Корзина</a>
+                <ul>
+                    <li>
+
+                        <form class="search-form" action="http://echo.htmlacademy.ru" method="get">
+                            <label class="visually-hidden" for="search-form-input">Поле поиска</label>
+                            <input type="text" class="main-header-search" name="search-input" id="search-form-input" placeholder="Поиск по сайту">
+                            <button type="submit" class="button search-button">Найти</button>
+                        </form>
+                    </li>
+                    <li>
+                        <ul class="header-user-menu">
+                            <li>
+                                <a class="main-header-user-link main-header-login" href="#">Войти</a>
+                            </li>
+                            <li>
+                                <a class="main-header-user-link main-header-compare" href="#">Сравнить</a>
+                            </li>
+                            <li>
+                                <a class="main-header-user-link main-header-cart" href="#">Корзина</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
             <nav class="main-header-navigation">
                 <ul class="main-header-menu">
-                    <li class="main-header-menu-item">
+                    <li class="main-header-menu-item header-menu-catalog">
                         <a href="catalog.html">Каталог товаров</a>
                         <div class="catalog-menu">
                             <ul class="catalog-menu-list column-1">
@@ -110,8 +125,8 @@
                                 <a class="slider-link more-link" href="#">Подробнее</a>
                             </div>
                             <dl class="parameters">
-                                <dt>48 часов</dt>
-                                <dd>Без подзарядки</dd>
+                                <dt>Без подзарядки</dt>
+                                <dd>48 часов</dd>
                             </dl>
                         </div>
                     </li>
@@ -225,14 +240,17 @@
                     <li class="service services-description-delivery service-show">
                         <h3 class="services-item-title">Доставка</h3>
                         <p class="services-item-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+                        <img src="/img/delivery-2.svg" alt="">
                     </li>
                     <li class="service services-description-warranty">
                         <h3 class="services-item-title">Гарантия</h3>
                         <p class="services-item-description">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.<br> Товар, не дом, конечно же.</p>
+                        <img src="/img/warranty-1.svg" alt="">
                     </li>
                     <li class="service services-description-credit">
                         <h3 class="services-item-title">Кредит</h3>
                         <p class="services-item-description">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
+                        <img src="/img/credit-1.svg" alt="">
                     </li>
                 </ul>
             </div>
@@ -270,9 +288,9 @@
                 <p class="about-us-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
                 <p class="about-us-text">Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
                 <ul class="delivery-services-list">
-                    <li class="delivery-service">Деловые линии</li>
-                    <li class="delivery-service">Автотрейдинг</li>
-                    <li class="delivery-service">ЖелДорЭкспедиция</li>
+                    <li class="delivery-service"><a href="https://www.dellin.ru/"> Деловые линии</a></li>
+                    <li class="delivery-service"><a href="http://www.autotrading.ru/"> Автотрейдинг</a></li>
+                    <li class="delivery-service"><a href="https://www.jde.ru/"> ЖелДорЭкспедиция</a></li>
                 </ul>
                 <a class="more-link" href="#">Подробнее о нас</a>
             </section>
@@ -289,7 +307,7 @@
         <div class="container">
             <div class="footer-wrapper-top">
                 <div class="logo footer-logo">
-                    <img src="img/-e-logo.svg" width="163" height="35" alt="Логотип DEVICE">
+                    <img src="img/-e-logo.svg" alt="DEVICE">
                 </div>
                 <ul class="footer-links-list">
                     <li class="footer-links-item"><a href="#" class="footer-login">Войти</a></li>
@@ -311,17 +329,17 @@
                 <ul class="social-button-list">
                     <li>
                         <a class="social-button" href="#">
-                            Facebook
+                            <img src="/img/fb.png" alt=""> Facebook
                         </a>
                     </li>
                     <li>
                         <a class="social-button" href="#">
-                            Instagram
+                            <img src="/img/inst.png" alt=""> Instagram
                         </a>
                     </li>
                     <li>
                         <a class="social-button" href="#">
-                            Twitter
+                            <img src="/img/tw.png" alt=""> Twitter
                         </a>
                     </li>
                 </ul>
@@ -329,17 +347,17 @@
             </div>
         </div>
     </footer>
-    <!-- <section class="modal modal-write-us">
+    <section class="modal modal-write-us">
         <h2 class="visually-hidden">Форма обратной связи</h2>
-        <form class="write-us-form" action="https://echo.htmlacademy.ru" method="post" wtx-context="2D4ADD93-E9FD-48D8-855A-5CC1B3674E6A">
+        <form class="write-us-form" action="https://echo.htmlacademy.ru" method="post">
             <div class="form-input-wrapper">
                 <div class="wrapper-column">
                     <label class="write-us-label" for="write-us-name">Ваше имя:</label>
-                    <input type="text" class="write-as-input" name="name" id="write-us-name" placeholder="Имя Фамилия" wtx-context="6DDC1CE4-E66A-405D-B6B8-3405CCAE8C43">
+                    <input type="text" class="write-as-input" name="name" id="write-us-name" placeholder="Имя Фамилия">
                 </div>
                 <div class="wrapper-column">
                     <label class="write-us-label" for="write-us-email">Ваш e-mail:</label>
-                    <input type="email" class="write-as-input" name="email" id="write-us-email" placeholder="email@example.com" wtx-context="41447790-561C-4B3E-9B73-E063C4904421">
+                    <input type="email" class="write-as-input" name="email" id="write-us-email" placeholder="email@example.com">
                 </div>
             </div>
             <div class="wrapper-column">
@@ -353,10 +371,9 @@
     <section class="modal modal-map">
         <h2 class="visually-hidden">Карта</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4498.1553158150755!2d37.5284326!3d55.6876376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1522103678551"
-            width="960" height="560" style="border:0" allowfullscreen=""></iframe>
-        <img src="img/map-big.jpg" alt="Офис компании по адресу Улица строителей, 15, Москва" width="960" height="560">
+            width="960" height="560" style="border:0"></iframe>
         <button type="button" class="modal-close">Закрыть</button>
-    </section> -->
+    </section>
 
 
 
