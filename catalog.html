@@ -41,8 +41,10 @@
                     <input type="text" class="main-header-search" name="search-input" id="search-form-input" placeholder="Поиск по сайту">
                     <button type="submit" class="button search-button">Найти</button>
                 </form>
-                <a class="main-header-user-link main-header-account" href="#">Валентин Петухов</a>
-                <a class="main-header-user-link main-header-logout" href="#">Выйти</a>
+                <span class="user">
+                    <a class="main-header-user-link main-header-account" href="#">Валентин Петухов</a>
+                    <a class="main-header-user-link main-header-logout" href="#">Выйти</a>
+                </span>
                 <a class="main-header-user-link main-header-compare" href="#">Сравнить</a>
                 <a class="main-header-user-link main-header-cart" href="#">Корзина</a>
             </div>
@@ -90,33 +92,33 @@
             </div>
         </div>
         <div class="catalog">
-            <div class="catalog-header">
-                <div class="container">
-                    <div class="filter-header">
-                        <h3>Фильтр:</h3>
-                    </div>
-                    <div class="catalog-sort">
-                        <h3>сортировка:</h3>
-                        <ul class="catalog-sort-links">
-                            <li class="catalog-sort-item current">
-                                <a href="#">По цене</a>
-                            </li>
-                            <li class="catalog-sort-item">
-                                <a href="#">По типу</a>
-                            </li>
-                            <li class="catalog-sort-item">
-                                <a href="#">По популярности</a>
-                            </li>
-                        </ul>
-                        <ul class="catalog-sort-buttons">
-                            <li><a href="#" class="arrow sort-up">по возрастанию</a></li>
-                            <li><a href="#" class="arrow sort-down">по убыванию</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
             <div class="catalog-content">
-                <div class="container">
+                <div class="container ">
+                    <div class="catalog-header filter-horisontal">
+                        <div class="container ">
+                            <div class="filter-header">
+                                <h3>Фильтр:</h3>
+                            </div>
+                            <div class="catalog-sort">
+                                <h3>сортировка:</h3>
+                                <ul class="catalog-sort-links">
+                                    <li class="catalog-sort-item current">
+                                        <a href="#">По цене</a>
+                                    </li>
+                                    <li class="catalog-sort-item">
+                                        <a href="#">По типу</a>
+                                    </li>
+                                    <li class="catalog-sort-item">
+                                        <a href="#">По популярности</a>
+                                    </li>
+                                </ul>
+                                <ul class="catalog-sort-buttons">
+                                    <li><a href="#" class="arrow sort-up">по возрастанию</a></li>
+                                    <li><a href="#" class="arrow sort-down">по убыванию</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                     <aside class="left-side">
                         <form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
                             <fieldset class="filter-group">
@@ -125,8 +127,8 @@
                                     <div class="price-controls">
                                         <!-- ЗДЕСЬ БУДЕТ КОНТРОЛЛЕР ЦЕНЫ -->
                                     </div>
-                                    <input type="number" name="price-min" id="price-min-price" value="0">
-                                    <input type="number" name="price-max" id="price-max-price" value="5000">
+                                    <input type="number" name="price-min" id="price-min-price" min="0" max="5000" value="0">
+                                    <input type="number" name="price-max" id="price-max-price" min="0" max="5000" value="5000">
                                     <label class="price-label" for="filter-min-price">от</label>
                                     <label class="price-label" for="filter-max-price" id="filter-min-price"> 0</label>
                                     <label class="price-label" for="filter-max-price">до</label>
@@ -201,7 +203,7 @@
                                         </div>
                                     </div>
                                     <div class="product-info-wrapper">
-                                        <a href="#">Профессиональная селфи&#x2011;палка</a>
+                                        <a href="#">Профессиональная селфи-палка</a>
                                         <p class="product-price">1 500 руб</p>
                                     </div>
                                 </li>
@@ -320,7 +322,6 @@
             </div>
         </div>
     </footer>
-    <!-- 
     <section class="modal modal-write-us">
         <h2 class="visually-hidden">Форма обратной связи</h2>
         <form class="write-us-form" action="https://echo.htmlacademy.ru" method="post">
@@ -344,7 +345,7 @@
         <h2 class="visually-hidden">Карта</h2>
         <img src="img/map-big.jpg" alt="Улица строителей, 15" width="950" height="559">
         <button type="button" class="modal-close">Закрыть</button>
-    </section> -->
+    </section>
 </body>
 
 </html>

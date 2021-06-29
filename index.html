@@ -91,8 +91,11 @@
             <h2 class="visually-hidden">Слайдер товаров</h2>
 
             <div class="container">
+                <input class="visually-hidden slider-checkbox" type="radio" id="slide-1" name="active-slider" checked>
+                <input class="visually-hidden slider-checkbox" type="radio" id="slide-2" name="active-slider">
+                <input class="visually-hidden slider-checkbox" type="radio" id="slide-3" name="active-slider">
                 <ul class="slider-list">
-                    <li class="slider-item">
+                    <li class="slider-item slider-item-1">
                         <div class="slider-item-left">
                             <img src="img/slider-1-1.png" alt="Самая длинная палка для селфи" width="384" height="486">
                         </div>
@@ -114,7 +117,7 @@
                         </div>
                     </li>
 
-                    <li class="slider-item">
+                    <li class="slider-item slider-item-2">
                         <div class="slider-item-left">
                             <img src="img/slider-2-1.png" alt="Мотивирующие фитнес-браслеты" width="345" height="485">
                         </div>
@@ -130,7 +133,7 @@
                             </dl>
                         </div>
                     </li>
-                    <li class="slider-item slider-show">
+                    <li class="slider-item slider-item-3">
                         <div class="slider-item-left">
                             <img src="img/slider-drone.png" alt="квадрокоптер" width="526" height="334">
                         </div>
@@ -152,15 +155,12 @@
                 </ul>
                 <ul class="slider-nav">
                     <li class="dot active">
-                        <input class="visually-hidden slider-checkbox" type="radio" id="slide-1" name="active-slider" checked>
                         <label class="dot-1" for="slide-1">Первый</label>
                     </li>
                     <li class="dot">
-                        <input class="visually-hidden slider-checkbox" type="radio" id="slide-2" name="active-slider">
                         <label class="dot-2" for="slide-2">Второй</label>
                     </li>
                     <li class="dot">
-                        <input class="visually-hidden slider-checkbox" type="radio" id="slide-3" name="active-slider">
                         <label class="dot-3" for="slide-3">Третий</label>
                     </li>
                 </ul>
@@ -307,20 +307,32 @@
         <div class="container">
             <div class="footer-wrapper-top">
                 <div class="logo footer-logo">
-                    <img src="img/-e-logo.svg" alt="DEVICE">
+                    <a><img src="img/-e-logo.svg" alt="DEVICE"></a>
                 </div>
                 <ul class="footer-links-list">
-                    <li class="footer-links-item"><a href="#" class="footer-login">Войти</a></li>
-                    <li class="footer-links-item"><a href="#" class="footer-compare">Сравнить</a></li>
-                    <li class="footer-links-item"><a href="#" class="footer-cart">Корзина</a></li>
+                    <li class="footer-links-item">
+                        <a href="#" class="footer-login">Войти</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#" class="footer-compare">Сравнить</a>
+                    </li>
+                    <li class="footer-links-item">
+                        <a href="#" class="footer-cart">Корзина</a>
+                    </li>
                 </ul>
             </div>
             <div class="footer-wrapper-center">
                 <p class="footer-address">г. Москва, ул. Строителей, 15</p>
                 <ul class="footer-menu">
-                    <li class="footer-menu-item"><a href="#">Доставка</a></li>
-                    <li class="footer-menu-item"><a href="#">Гарантия</a></li>
-                    <li class="footer-menu-item"><a href="#">Контакты</a></li>
+                    <li class="footer-menu-item">
+                        <a class="footer-menu-item-link" href="#">Доставка</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a class="footer-menu-item-link" href="#">Гарантия</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a class="footer-menu-item-link" href="#">Контакты</a>
+                    </li>
                 </ul>
                 <p class="footer-phone">Тел.: <a href="tel:+74954959595">+7 (495) 495-95-95</a></p>
             </div>
