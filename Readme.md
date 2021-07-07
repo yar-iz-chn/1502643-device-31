@@ -32,7 +32,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 <img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29038009-a63d0cca-7bae-11e7-9c84-95e21fcbff13.jpg">
 
-Программа клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
+Программа клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.  
 
 #### 4. Начинайте обучение!
 
