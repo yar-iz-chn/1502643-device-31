@@ -30,52 +30,68 @@
 <body class="catalog-page">
 
     <header class="main-header">
-        <div class="logo header-logo">
-            <a href="index.html">
-                <img src="img/logo.svg" alt="">
-            </a>
+        <div class="container">
+            <div class="logo header-logo">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="main-header-wrapper">
+                <ul>
+                    <li class="search">
+                        <form class="search-form" action="http://echo.htmlacademy.ru" method="get">
+                            <label class="visually-hidden" for="search-form-input">Поле поиска</label>
+                            <input type="text" class="main-header-search" name="search-input" id="search-form-input" placeholder="Поиск по сайту ">
+                            <button type="submit " class="button search-button ">Найти</button>
+                        </form>
+                    </li>
+                    <li>
+                        <ul class="header-user-menu">
+                            <li class="main-header-user user">
+                                <a class="main-header-user-link main-header-account" href="#">Валентин Петухов</a>
+                                <a class="main-header-user-link main-header-logout" href="#">Выйти</a>
+                            </li>
+                            <li class="main-header-compare">
+                                <a class="main-header-user-link main-header-compare-link" href="#">Сравнить</a>
+                            </li>
+                            <li class=" main-header-cart">
+                                <a class="main-header-user-link main-header-cart-link" href="#">Корзина</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <nav class="main-header-navigation">
+                <ul class="main-header-menu">
+                    <li class="main-header-menu-item header-menu-catalog">
+                        <a href="catalog.html">Каталог товаров</a>
+                        <div class="catalog-menu">
+                            <ul class="catalog-menu-list column-1">
+                                <li class="catalog-menu-item"><a href="#">Виртуальная реальность</a></li>
+                                <li class="catalog-menu-item"><a>Моноподы для селфи</a></li>
+                                <li class="catalog-menu-item"><a href="#">Экшн-камеры</a></li>
+                            </ul>
+                            <ul class="catalog-menu-list column-2">
+                                <li class="catalog-menu-item"><a href="#">Фитнес-браслеты</a></li>
+                                <li class="catalog-menu-item"><a href="#">Умные часы</a></li>
+                            </ul>
+                            <ul class="catalog-menu-list column-3">
+                                <li class="catalog-menu-item"><a href="#">Квадрокоптеры</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="main-header-menu-item main-header-delivery"><a href="#">Доставка</a></li>
+                    <li class="main-header-menu-item main-header-warranty"><a href="#">Гарантия</a></li>
+                    <li class="main-header-menu-item main-header-contacts"><a href="#">Контакты</a></li>
+
+                </ul>
+            </nav>
         </div>
-        <div class="main-header-wrapper">
-            <form class="search-form" action="http://echo.htmlacademy.ru" method="get">
-                <label class="visually-hidden" for="search-form-input">Поле поиска</label>
-                <input type="text" class="main-header-search" name="search-input" id="search-form-input" placeholder="Поиск по сайту">
-                <button type="submit" class="button search-button">Найти</button>
-            </form>
-            <span class="user">
-                <a class="main-header-user-link main-header-account" href="#">Валентин Петухов</a>
-                <a class="main-header-user-link main-header-logout" href="#">Выйти</a>
-            </span>
-            <a class="main-header-user-link main-header-compare" href="#">Сравнить</a>
-            <a class="main-header-user-link main-header-cart" href="#">Корзина</a>
-        </div>
-        <nav class="main-header-navigation">
-            <ul class="main-header-menu">
-                <li class="main-header-menu-item header-menu-catalog">
-                    <a href="catalog.html">Каталог товаров</a>
-                    <div class="catalog-menu">
-                        <ul class="catalog-menu-list column-1">
-                            <li class="catalog-menu-item"><a href="#">Виртуальная реальность</a></li>
-                            <li class="catalog-menu-item"><a>Моноподы для селфи</a></li>
-                            <li class="catalog-menu-item"><a href="#">Экшн-камеры</a></li>
-                        </ul>
-                        <ul class="catalog-menu-list column-2">
-                            <li class="catalog-menu-item"><a href="#">Фитнес-браслеты</a></li>
-                            <li class="catalog-menu-item"><a href="#">Умные часы</a></li>
-                        </ul>
-                        <ul class="catalog-menu-list column-3">
-                            <li class="catalog-menu-item"><a href="#">Квадрокоптеры</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="main-header-menu-item"><a href="#">Доставка</a></li>
-                <li class="main-header-menu-item"><a href="#">Гарантия</a></li>
-                <li class="main-header-menu-item"><a href="#">Контакты</a></li>
-            </ul>
-        </nav>
     </header>
 
     <main class="main-container">
-        <div class="container">
+        <div class="container breadcrumbs-container">
             <div class="breadcrumbs">
                 <h1 class="main-title">Моноподы для селфи</h1>
                 <ul class="breadcrumbs-list">
