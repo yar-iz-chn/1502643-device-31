@@ -24,6 +24,8 @@
     <title>Главная | Интернет-магазин DEVICE</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/5.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -36,29 +38,30 @@
             </div>
             <div class="main-header-wrapper">
                 <ul>
-                    <li>
+                    <li class="search">
 
                         <form class="search-form" action="http://echo.htmlacademy.ru" method="get">
                             <label class="visually-hidden" for="search-form-input">Поле поиска</label>
-                            <input type="text" class="main-header-search" name="search-input" id="search-form-input" placeholder="Поиск по сайту">
-                            <button type="submit" class="button search-button">Найти</button>
+                            <input type="text" class="main-header-search" name="search-input" id="search-form-input" placeholder="Поиск по сайту ">
+                            <button type="submit " class="button search-button ">Найти</button>
                         </form>
                     </li>
                     <li>
                         <ul class="header-user-menu">
-                            <li>
-                                <a class="main-header-user-link main-header-login" href="#">Войти</a>
+                            <li class="main-header-login">
+                                <a class="main-header-user-link main-header-login-link" href="#">Войти</a>
                             </li>
-                            <li>
-                                <a class="main-header-user-link main-header-compare" href="#">Сравнить</a>
+                            <li class="main-header-compare">
+                                <a class="main-header-user-link main-header-compare-link" href="#">Сравнить</a>
                             </li>
-                            <li>
-                                <a class="main-header-user-link main-header-cart" href="#">Корзина</a>
+                            <li class=" main-header-cart">
+                                <a class="main-header-user-link main-header-cart-link" href="#">Корзина</a>
                             </li>
                         </ul>
                     </li>
                 </ul>
             </div>
+
             <nav class="main-header-navigation">
                 <ul class="main-header-menu">
                     <li class="main-header-menu-item header-menu-catalog">
@@ -78,9 +81,9 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="main-header-menu-item"><a href="#">Доставка</a></li>
-                    <li class="main-header-menu-item"><a href="#">Гарантия</a></li>
-                    <li class="main-header-menu-item"><a href="#">Контакты</a></li>
+                    <li class="main-header-menu-item main-header-delivery"><a href="#">Доставка</a></li>
+                    <li class="main-header-menu-item main-header-warranty"><a href="#">Гарантия</a></li>
+                    <li class="main-header-menu-item main-header-contacts"><a href="#">Контакты</a></li>
                 </ul>
             </nav>
         </div>
@@ -282,7 +285,7 @@
                 </ul>
             </div>
         </section>
-        <div class="about-section container">
+        <section class="about-section container">
             <section class="about-us">
                 <h2 class="about-us-header">О нас</h2>
                 <p class="about-us-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
@@ -301,7 +304,7 @@
                     class="contacts-map"><img src="img/map-1.png" alt="Миникарта" width="560" height="222"></a>
                 <a class="more-link write-us-link" href="#">Напишите нам</a>
             </section>
-        </div>
+        </section>
     </main>
     <footer class="main-footer">
         <div class="container">
@@ -386,7 +389,6 @@
             width="960" height="560" style="border:0"></iframe>
         <button type="button" class="modal-close">Закрыть</button>
     </section>
-
 
 
 </body>
