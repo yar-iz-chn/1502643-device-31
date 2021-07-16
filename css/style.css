@@ -45,6 +45,7 @@ body {
     color: var(--basic-black);
     background-color: var(--basic-white);
     letter-spacing: 0em;
+    position: relative;
 }
 
 .container {
@@ -953,6 +954,7 @@ aside .button:active {
 
 .service-show {
     display: grid;
+    position: relative;
     grid-template-columns: 40px 60px 40px 60px 40px 60px 40px 60px 40px 60px 40px 60px 40px 60px 40px 60px 40px 60px;
 }
 
@@ -2058,6 +2060,12 @@ legend {
 
 /*  */
 
+.more-link,
+.modal-close,
+.contacts-map {
+    cursor: pointer;
+}
+
 .about-us::before,
 .contacts::before {
     content: '';
@@ -2094,4 +2102,76 @@ legend {
     background-size: 260px;
     position: relative;
     top: 55px;
+}
+
+.current .services-link#warranty-link {
+    padding-right: 145px;
+}
+
+.services-tab,
+.dot {
+    cursor: pointer;
+}
+
+.dot {
+    font-size: 0;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+
+.active {
+    background-image: radial-gradient(transparent 20%, #000 20%, #000 40%, transparent 40%);
+}
+
+.current .services-link#credit-link {
+    padding-right: 158px;
+}
+
+.slider-nav {
+    position: relative;
+    top: 470px;
+    left: 1000px;
+}
+
+.slider-item::before {
+    display: block;
+    position: absolute;
+    height: 170px;
+    width: 182px;
+    font-size: 179px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 219px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--basic-white);
+    top: 190px;
+    left: 1070px;
+}
+
+.slider-item::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 7px;
+    width: 100px;
+    left: 740px;
+    top: 235px;
+    border-radius: 0px;
+    background-color: var(--basic-white);
+}
+
+.slider-item-1::before {
+    content: '01';
+}
+
+.slider-item-2::before {
+    content: '02';
+}
+
+.slider-item-3::before {
+    content: '03';
 }

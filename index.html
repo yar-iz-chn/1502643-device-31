@@ -93,11 +93,14 @@
             <h2 class="visually-hidden">Слайдер товаров</h2>
 
             <div class="container">
-                <input class="visually-hidden slider-checkbox" type="radio" id="slide-1" name="active-slider" checked>
-                <input class="visually-hidden slider-checkbox" type="radio" id="slide-2" name="active-slider">
-                <input class="visually-hidden slider-checkbox" type="radio" id="slide-3" name="active-slider">
+                <ul class="slider-nav">
+                    <li class="dot active" onclick="currentSlide(1)"><a>Первый</a></li>
+                    <li class="dot" onclick="currentSlide(2)"><a>Второй</a></li>
+                    <li class="dot" onclick="currentSlide(3)"><a> Третий</a></li>
+
+                </ul>
                 <ul class="slider-list">
-                    <li class="slider-item slider-item-1 slider-item-show">
+                    <li class="slider-item slider-item-1">
                         <div class="slider-item-left">
                             <img src="img/slider-1-1.png" alt="Самая длинная палка для селфи" width="384" height="486">
                         </div>
@@ -155,17 +158,7 @@
                     </li>
 
                 </ul>
-                <ul class="slider-nav">
-                    <li class="dot active">
-                        <label class="dot-1" for="slide-1">Первый</label>
-                    </li>
-                    <li class="dot">
-                        <label class="dot-2" for="slide-2">Второй</label>
-                    </li>
-                    <li class="dot">
-                        <label class="dot-3" for="slide-3">Третий</label>
-                    </li>
-                </ul>
+
             </div>
         </section>
         <section class="categories">
@@ -228,14 +221,14 @@
             <h2 class="visually-hidden">Услуги</h2>
             <div class="container">
                 <ul class="services-nav">
-                    <li class="services-tab current">
-                        <a class="services-link" id="delivery-link" href="#">Доставка</a>
+                    <li class="services-tab delivery-link current">
+                        <a class="services-link" id="delivery-link">Доставка</a>
                     </li>
-                    <li class="services-tab">
-                        <a class="services-link" id="warranty-link" href="#">Гарантия</a>
+                    <li class="services-tab warranty-link">
+                        <a class="services-link" id="warranty-link">Гарантия</a>
                     </li>
-                    <li class="services-tab">
-                        <a class="services-link" id="credit-link" href="#">Кредит</a>
+                    <li class="services-tab credit-link">
+                        <a class="services-link" id="credit-link">Кредит</a>
                     </li>
                 </ul>
                 <ul class="services-description">
@@ -299,9 +292,9 @@
             <section class="contacts">
                 <h2 class="contacts-header">Контакты</h2>
                 <p class="contacts-text">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-                <a href="https://www.google.ru/maps/place/%D0%BD%D0%B0%D0%B1.+P%D0%B5%D0%BA%D0%B8+%D0%9A%D0%B0%D1%80%D0%BF%D0%BE%D0%B2%D0%BA%D0%B8,+5+%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81+%D0%9F,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+197022/@59.968342,30.315187,17z/data=!3m1!4b1!4m5!3m4!1s0x4696315bc4e8ce61:0x74d4f0cbfe1fd995!8m2!3d59.968342!4d30.317381?hl=ru"
-                    class="contacts-map"><img src="img/map-1.png" alt="Миникарта" width="560" height="222"></a>
-                <a class="more-link write-us-link" href="#">Напишите нам</a>
+                <a class="contacts-map"><img src="img/map-1.png" class="popup-map" alt="Миникарта" width="560" height="222"></a>
+                <a class="more-link write-us-link">Напишите нам</a>
+
             </section>
         </section>
     </main>
@@ -380,16 +373,17 @@
             </div>
             <button type="submit" class="button">Отправить</button>
         </form>
-        <button type="button" class="modal-close">Закрыть</button>
+        <button type="button" class="modal-close modal-close-write">Закрыть</button>
     </section>
     <section class="modal modal-map">
         <h2 class="visually-hidden">Карта</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4498.1553158150755!2d37.5284326!3d55.6876376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1522103678551"
             width="960" height="560" style="border:0"></iframe>
-        <button type="button" class="modal-close">Закрыть</button>
+        <button type="button" class="modal-close modal-close-map">Закрыть</button>
     </section>
-
-
+    <script src="/slider.js"></script>
+    <script src="/popup.js"></script>
+    <script src="/slider-big.js"></script>
 </body>
 
 </html>
