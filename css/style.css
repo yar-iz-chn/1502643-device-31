@@ -2055,6 +2055,9 @@ legend {
     height: 580px;
 }
 
+
+/*  */
+
 .about-us::before,
 .contacts::before {
     content: '';
