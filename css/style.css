@@ -2051,6 +2051,42 @@ legend {
     display: none;
 }
 
+.unshow {
+    animation: hide .3s forwards;
+}
+
+@keyframes hide {
+    from {
+        top: 50%;
+        opacity: 1px;
+    }
+    to {
+        top: 200%;
+        opacity: 0;
+    }
+}
+
+.show-form {
+    display: grid;
+    animation: show .3s forwards;
+}
+
+.show-map {
+    display: block;
+    animation: show .3s forwards;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        top: 200%;
+    }
+    to {
+        opacity: 1;
+        top: 50%;
+    }
+}
+
 .about-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
