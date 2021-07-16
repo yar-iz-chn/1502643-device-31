@@ -288,7 +288,7 @@
             <section class="about-us">
                 <h2 class="about-us-header">О нас</h2>
                 <p class="about-us-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
-                <p class="about-us-text">Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
+                <p class="about-us-text p-margin">Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
                 <ul class="delivery-services-list">
                     <li class="delivery-service"><a href="https://www.dellin.ru/"> Деловые линии</a></li>
                     <li class="delivery-service"><a href="http://www.autotrading.ru/"> Автотрейдинг</a></li>
@@ -365,18 +365,18 @@
         <h2 class="visually-hidden">Форма обратной связи</h2>
         <form class="write-us-form" action="https://echo.htmlacademy.ru" method="post">
             <div class="form-input-wrapper">
-                <div class="wrapper-column">
+                <div class="wrapper-column-1 wrapper-column">
                     <label class="write-us-label" for="write-us-name">Ваше имя:</label>
-                    <input type="text" class="write-as-input" name="name" id="write-us-name" placeholder="Имя Фамилия">
+                    <input type="text" class="write-as-input" name="name" id="write-us-name" required placeholder="Имя Фамилия">
                 </div>
-                <div class="wrapper-column">
+                <div class="wrapper-column-2 wrapper-column">
                     <label class="write-us-label" for="write-us-email">Ваш e-mail:</label>
-                    <input type="email" class="write-as-input" name="email" id="write-us-email" placeholder="email@example.com">
+                    <input type="email" class="write-as-input" name="email" id="write-us-email" required placeholder="email@example.com">
                 </div>
             </div>
-            <div class="wrapper-column">
+            <div class="wrapper-row">
                 <label class="write-us-label" for="write-us-text">Текст письма:</label>
-                <textarea class="write-as-textarea" name="text" id="write-us-text" placeholder="В свободной форме"></textarea>
+                <textarea class="write-as-textarea" name="text" id="write-us-text" required placeholder="В свободной форме"></textarea>
             </div>
             <button type="submit" class="button">Отправить</button>
         </form>
