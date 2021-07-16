@@ -140,15 +140,31 @@
                             <fieldset class="filter-group">
                                 <legend>Стоимость</legend>
                                 <div class="filter-price-range">
-                                    <div class="price-controls">
-                                        <!-- ЗДЕСЬ БУДЕТ КОНТРОЛЛЕР ЦЕНЫ -->
+                                    <div class="range-filter">
+                                        <div class="range-controls">
+                                            <div class="scale">
+                                                <div class="bar" style="
+                                              width: 50%;
+                                              margin-left: 0%
+                                            "></div>
+                                            </div>
+                                            <div class="toggle toggle-min" tabindex="0" style="
+                                            left: 0%
+                                          "></div>
+                                            <div class="toggle toggle-max" tabindex="0" style="
+                                            left: 50%
+                                          "></div>
+                                        </div>
+                                        <div class="price-controls">
+                                            <label class="min-price">
+                                            от <input type="number" name="min-price" value="0">
+                                          </label>
+                                            <label class="max-price">
+                                            до <input type="number" name="max-price" value="5000">
+                                          </label>
+                                        </div>
                                     </div>
-                                    <input type="number" name="price-min" id="price-min-price" min="0" max="5000" value="0">
-                                    <input type="number" name="price-max" id="price-max-price" min="0" max="5000" value="5000">
-                                    <label class="price-label" for="price-min-price">от</label>
-                                    <label class="price-label" for="price-min-price" id="filter-min-price"> 0</label>
-                                    <label class="price-label" for="price-max-price">до</label>
-                                    <label class="price-label" for="price-max-price" id="filter-max-price"> 5000</label>
+
                                 </div>
                             </fieldset>
                             <fieldset class="filter-group">
