@@ -4,7 +4,7 @@
 * Наставник: [Михаил Поданев](https://htmlacademy.ru/profile/id63947).
 
 ---
-
+  
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
