@@ -360,7 +360,7 @@ footer .container {
 
 .arrow {
     font-size: 0;
-    background-image: url("/img/catalog/icon-down-dir.png");
+    background-image: url("img/catalog/icon-down-dir.png");
     background-size: 20px 20px;
     background-position: center center;
     width: 10px;
@@ -504,7 +504,7 @@ footer li a:active {
     content: '';
     width: 13px;
     height: 14px;
-    background-image: url("/img/icon_user.svg");
+    background-image: url("img/icon_user.svg");
     background-position: 50% 50%;
     position: relative;
     display: inline-block;
@@ -545,7 +545,7 @@ footer li a:active {
     content: '';
     width: 13px;
     height: 14px;
-    background-image: url("/img/icon_user.svg");
+    background-image: url("img/icon_user.svg");
     background-position: 50% 50%;
     position: relative;
     display: inline-block;
@@ -558,7 +558,7 @@ footer li a:active {
     content: '';
     width: 14px;
     height: 14px;
-    background-image: url("/img/icon_chart.svg");
+    background-image: url("img/icon_chart.svg");
     background-position: 50% 50%;
     position: relative;
     display: inline-block;
@@ -570,7 +570,7 @@ footer li a:active {
     content: '';
     width: 10px;
     height: 10px;
-    background-image: url("/img/icon_cart.svg");
+    background-image: url("img/icon_cart.svg");
     background-position: 50% 50%;
     position: relative;
     display: inline-block;
@@ -596,7 +596,7 @@ footer li a:active {
 
 .header-menu-catalog>a::after {
     content: '';
-    background-image: url("/img/icon_plus.png");
+    background-image: url("img/icon_plus.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     width: 22px;
@@ -1045,7 +1045,7 @@ ul:not([class="delivery-services-list"]) {
 }
 
 .delivery-service {
-    list-style: url("/img/li-marker.svg");
+    list-style: url("img/li-marker.svg");
     font-size: 16px;
     font-style: normal;
     font-weight: 800;
@@ -1214,7 +1214,7 @@ span.user {
     content: '';
     width: 14px;
     height: 14px;
-    background-image: url("/img/icon_user-footer.svg");
+    background-image: url("img/icon_user-footer.svg");
     background-position: 50% 50%;
     position: relative;
     display: inline-block;
@@ -1232,7 +1232,7 @@ span.user {
     content: '';
     width: 14px;
     height: 14px;
-    background-image: url("/img/icon_chart-footer.svg");
+    background-image: url("img/icon_chart-footer.svg");
     background-position: 50% 50%;
     position: relative;
     display: inline-block;
@@ -1309,7 +1309,7 @@ footer>.container {
 
 .modal-map .modal-close {
     font-size: 0;
-    background-image: url("/img/icon_cross.png");
+    background-image: url("img/icon_cross.png");
     background-color: var(--special-yellow);
     border-radius: 50%;
     height: 55px;
@@ -1324,7 +1324,7 @@ footer>.container {
 
 .modal-write-us .modal-close {
     font-size: 0;
-    background-image: url("/img/icon_cross.png");
+    background-image: url("img/icon_cross.png");
     background-color: var(--special-yellow);
     border-radius: 50%;
     height: 55px;
@@ -1610,7 +1610,7 @@ bottom: 10px; */
 }
 
 .new .image-hover-wrapper::before {
-    content: url("/img/catalog/icon-new.png");
+    content: url("img/catalog/icon-new.png");
     width: 62px;
     height: 62px;
     display: inline;
@@ -1687,7 +1687,7 @@ legend {
 .color-list-item input:checked~label::before {
     height: 20px;
     width: 20px;
-    background: url(/img/catalog/icon_check.png);
+    background: url(img/catalog/icon_check.png);
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid var(--basic-black);
@@ -1714,7 +1714,7 @@ legend {
 .color-list-item input:checked~label:hover::before {
     height: 20px;
     width: 20px;
-    background: url(/img/catalog/icon_check.png);
+    background: url(img/catalog/icon_check.png);
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid var(--basic-black);
@@ -1742,7 +1742,7 @@ legend {
 .color-list-item input:checked:disabled~label::before {
     height: 20px;
     width: 20px;
-    background: url(/img/catalog/icon_check.png);
+    background: url(img/catalog/icon_check.png);
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid var(--basic-black);
@@ -1770,7 +1770,7 @@ legend {
 .color-list-item input:checked:disabled~label:hover::before {
     height: 20px;
     width: 20px;
-    background: url(/img/catalog/icon_check.png);
+    background: url(img/catalog/icon_check.png);
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid var(--basic-black);
