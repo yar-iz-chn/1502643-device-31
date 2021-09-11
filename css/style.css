@@ -1245,7 +1245,7 @@ span.user {
     content: '';
     width: 14px;
     height: 14px;
-    background-image: url("/img/icon_cart-footer.svg");
+    background-image: url("img/icon_cart-footer.svg");
     background-position: 50% 50%;
     position: relative;
     display: inline-block;
