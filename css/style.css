@@ -1687,7 +1687,7 @@ legend {
 .color-list-item input:checked~label::before {
     height: 20px;
     width: 20px;
-    background: url(/img/catalog/icon_check.png);
+    background: url(img/catalog/icon_check.png);
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid var(--basic-black);
@@ -1714,7 +1714,7 @@ legend {
 .color-list-item input:checked~label:hover::before {
     height: 20px;
     width: 20px;
-    background: url(/img/catalog/icon_check.png);
+    background: url(img/catalog/icon_check.png);
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid var(--basic-black);
@@ -1742,7 +1742,7 @@ legend {
 .color-list-item input:checked:disabled~label::before {
     height: 20px;
     width: 20px;
-    background: url(/img/catalog/icon_check.png);
+    background: url(img/catalog/icon_check.png);
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid var(--basic-black);
@@ -1770,7 +1770,7 @@ legend {
 .color-list-item input:checked:disabled~label:hover::before {
     height: 20px;
     width: 20px;
-    background: url(/img/catalog/icon_check.png);
+    background: url(img/catalog/icon_check.png);
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid var(--basic-black);
